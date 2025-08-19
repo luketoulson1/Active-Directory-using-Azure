@@ -20,8 +20,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Brief Overview</h2>
 
 - Creating our VMs: Domain Controller and the Client machine
-- Deploying Active Directory on the Domain Controller
 - Establishing a connection between the 2 machines (Client and the Domain Controller)
+- Deploying Active Directory on the Domain Controller
 - Creating users using PowerShell
 - Configuring basic Group Policy settings
 
@@ -45,7 +45,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Log into the Domain Controller via RDP and install Active Directory Services
     - Promote the machine to a Domain Controller, setup a new forest (create a simple domain name, for ex: domain123.com)
     - Restart the Domain Controller VM and log back in as the user: domain123.com/yourusernamehere (You will input the domain that was created and the username for the admin account created earlier)
-  - asdf
+  - Creating Organization Units and Groups
+    - In Active Directory Users and Computers, create and Organizational Unit and name it "_EMPLOYEES" (format it this way so we can differentiate it from Windows created groups and files) 
 
 
 
